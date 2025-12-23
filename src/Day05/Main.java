@@ -4,7 +4,6 @@ package Day05;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
@@ -18,7 +17,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        try (Scanner sc = new Scanner(new File("src/Day05/input.txt"))){
+        try (Scanner sc = new Scanner(new File("src/Day05/test.txt"))){
             boolean readingRanges = true;
             while (sc.hasNextLine()) {
                 String line = sc.nextLine().trim();
